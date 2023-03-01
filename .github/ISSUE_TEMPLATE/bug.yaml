@@ -4,7 +4,7 @@ title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
   - type: checkboxes
-    id: terms
+    id: body
     attributes:
       label: Does another issue exist for this bug already?
       description: This issue is unique and there is not already an issue covering this bug.
@@ -58,7 +58,7 @@ body:
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: C#
   - type: checkboxes
-    id: terms
+    id: conduct
     attributes:
       label: Code of Conduct
       description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
